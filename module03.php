@@ -9,7 +9,7 @@ $startFrom = 1;
 $endOn = 100;
 
 // Answer 2:
-function sumOneToHundred( $start, $end ) {
+function sumSeriesOfNumbers( $start, $end ) {
     $sum = 0;
     for ( $i = $start; $i <= $end; $i++ ) {
         $sum += $i;
@@ -26,9 +26,9 @@ function checkEvenOrOdd( $num ) {
     }
 }
 
-echo "Summation of {$startFrom} to {$endOn} is " . sumOneToHundred( $startFrom, $endOn );
+echo "Summation of {$startFrom} to {$endOn} is " . sumSeriesOfNumbers( $startFrom, $endOn );
 
-echo PHP_EOL;
+echo PHP_EOL."======";
 echo PHP_EOL;
 
-echo checkEvenOrOdd( sumOneToHundred( $startFrom, $endOn ) );
+echo checkEvenOrOdd( sumSeriesOfNumbers( $startFrom, $endOn ) );
