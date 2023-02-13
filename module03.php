@@ -28,7 +28,7 @@ function checkEvenOrOdd( $num ) {
 
 echo "Summation of {$startFrom} to {$endOn} is " . sumSeriesOfNumbers( $startFrom, $endOn );
 
-echo PHP_EOL."======";
+echo PHP_EOL."=====";
 echo PHP_EOL;
 
 echo checkEvenOrOdd( sumSeriesOfNumbers( $startFrom, $endOn ) );
